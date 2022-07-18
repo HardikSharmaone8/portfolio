@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link rel="stylesheet" href="css/portfolio.css">
+    <title>Portfolio</title>
+
+
+</head>
+
+<body id="body">
+    
+             {{!--  slidebar for home--}}
+        <div id="sidebar">
+             <i class="fa-solid fa-square-xmark" style="font-size:40px;color:white;float:right;margin-top:-50px;"></i>
+                <ul>
+                    <li class="list"><a href="#home_pic" class="hide" >Home</a></li>
+                    <li class="list"><a href="#about" class="hide" >About</a></li>
+                    <li class="list"> <a href="#project" class="hide" >Projects</a></li>
+                    <li class="list"><a href="#skill" class="hide" > Skills</a></li>
+                    <li class="list"><a href="#contact" class="hide" >Contacts</a></li>
+        </div>
+   
+   {{!-- end of slidebar --}}
+   
+    <div id="home_pic">
+        <div id="menu">
+            <ul style="display:flex;" id="menu_ul">
+                <li id="menu_title">Portfo<span class='lio' style="color:brown;font-size: 40px;">lio.</span></li>
+                <li class="bars_text"><i class="fa-solid fa-bars" id="bars"></i></li>
+            </ul>
+
+        </div>
+        <div id="navigation">
+            <ul id="ul">
+                <li style="font-size:30px;margin-right:550px;margin-top:-10px;">Portfo<span id='lio' style="color:brown;font-size: 30px;">lio.</span></li>
+                <li><a href="#home_pic">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+        </div>
+        <div id="home_text">
+            <p style="font-weight:bold;font-size: 20px;">Hello, my name is</p>
+            <h1 id="home_text_h">Hardik Sharma</h1>
+            <h3 id="home_text_hh">And I'm a <span id="change_text" style="color:brown;">Developer</span><span id="pointer">|</span></h3>
+            <div id="hire">Hire me</div>
+        </div>
+    </div>
+
+   
+   
+   
+  <div id="about">
+
+        <div id="about_head">
+            <h1>About me</h1>
+            <h3 style="color:brown;margin-top:-18px;">-- Who i am --</h3>
+        </div>
+
+        <div id="about_container">
+            <img src="virat.jpg" id="about_image">
+            <div id="about_text">
+                <h2>I'm Hardik Sharma and I'm <span style="color:brown; font-size: 25px;">Developer</span></h2>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repellendus, accusamus enim exercitationem accusantium, assumenda aut voluptates perferendis illo rem cupiditate ullam pariatur doloribus facilis tempora cum cumque animi. Dicta inventore,
+                vitae necessitatibus autem veritatis officiis dolorum tempore doloremque molestias quas, rerum quo soluta, enim pariatur praesentium quae voluptatibus sequi aut numquam odio aperiam voluptatum. Repellendus, animi cum similique vel qui
+             
+
+               <a href="resume.pdf"><div id="resume">Download CV</div></a> 
+            </div>
+        </div>
+    </div>
+
+   
+   
+   
+    <div id="project">
+        <div id="project_container">
+            <div style="text-align: center;">
+                <h1 style="color:white;">My Projects</h1>
+                <h3 style="color:brown;margin-top:-18px;">-- What my projects --</h3>
+            </div>
+<marquee style="color:white;font-size:15px;">Note: - First two projects are not responsive.<span style="color:gold;font-size:15px;"> Please selection desktop site option for mobile user.</span></marquee>
+            <div id="project_display">
+
+               <a href="http://blood-donation-hardiksharma.herokuapp.com/" style="text-decoration:none;">
+                    <div class="projects">
+                        <i class="fa-solid fa-truck-medical"></i>
+                        <h2>Blood Donation Camp</h2>
+                        <h5> This Project contains Mongodb database. You also applied CURD operations on this project.This project is fully maintained data of the donor.
+                        </h5>
+                    </div>
+                </a>
+                
+                 <a href="http://weather-report-hardiksharma.herokuapp.com/" style="text-decoration:none;">
+                        <div class="projects">
+                            <i class="fa-solid fa-cloud"></i>
+                            <h2>Weather app</h2>
+                            <h5>This project build with front-end and back-end languages.This project gets working API and data will be reading through online API.You much check.
+                            </h5>
+                         </div>
+                </a>
+                
+                 <a href=" https://india-overview-news.herokuapp.com/" style="text-decoration:none;">
+                <div class="projects">
+                    <i class="fa-solid fa-newspaper"></i>
+                    <h2>Youtube News Chennel</h2>
+                    <h5>This project build for a youtube News chennel. It is full responsive website. You must check it's responsiveness.
+                    </h5>
+                </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+  
+    
+    
+    <div id="skill">
+        <div id="skill_head">
+            <h1>My skills</h1>
+            <h3 style="color:brown;margin-top:-18px;">-- What i know --</h3>
+        </div>
+        <div id="skill_container">
+            <div id="front">
+                <h2 style="color:brown;font-size:35px;">Front-end</h2>
+                <i class="fa-brands fa-html5" style="color:red;"></i>
+                <i class="fa-brands fa-css3-alt" style="color:blue;"></i>
+                <i class="fa-brands fa-js" style="color:gold;"></i>
+            </div>
+
+            <div id="back">
+                <h2 style="color:brown;font-size:35px;">Back-end</h2>
+                <div style="display:flex">
+                    <img src="express-logo.png">
+                    <img src="nodejs.png">
+                </div>
+            </div>
+        </div>
+        <div id="database">
+            <h2 style="color:brown;font-size:35px;">Database</h2>
+            <img src="mongodb.png" id="mongo_image"style="margin-top:-20px;">
+        </div>
+
+    </div>
+
+ 
+
+    <div id="contact">
+        <div id="skill_head">
+            <h1 style="color:white;">Contact me</h1>
+            <h3 style="color:brown;margin-top:-18px;">-- get in touch --</h3>
+        </div>
+        <div id="contact_container">
+            <div id="contact_text">
+                <h2>Get In Touch</h2>
+                <h4>Hello Everyone! Have a great day :) If you have any suggestion then please mail me. Thank You.</h4>
+
+                <div id="address_section">
+
+                    <div id="address_logo">
+                        <h1> <i class="fa-solid fa-user"></i></h1>
+                        <h1> <i class="fa-solid fa-location-dot"></i></h1>
+                        <h1> <i class="fa-solid fa-envelope"></i></h1>
+                    </div>
+                    <div id="address">
+                        <div class="add">
+                            Name
+                            <div style="font-size:15px">Hardik Sharma</div>
+                        </div>
+                        <div class="add">
+                            Address
+                            <div style="font-size:15px">Shahabad Markanda,Haryana</div>
+                        </div>
+                        <div class="add">
+                            Email
+                            <div style="font-size:15px">hardiksharma30018@gmail.com</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="contact_form">
+                <h2 id="msg_text">Message me</h2>
+                <form action="/portfolio" method="post">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="text" name="msg" id="message" placeholder="Message" required>
+                    <input type="submit" value="Submit" id="submit" />
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    {{>footer}}
+
+    <script src="js/portfolio.js">
+    </script>
+</body>
+
+</html>
