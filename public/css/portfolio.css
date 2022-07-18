@@ -376,7 +376,7 @@ input {
     background-color: black;
     text-align: center;
     color: white;
-    font-size: 20px;
+    font-size: 20ppx;
     font-weight: bold;
     box-sizing: border-box;
     padding: 2px;
@@ -390,7 +390,7 @@ input {
 }
 
 .fa-facebook :hover {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .fa-instagram-square :hover {
