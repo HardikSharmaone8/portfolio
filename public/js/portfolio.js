@@ -24,7 +24,7 @@ document.getElementById("hire").addEventListener("click", () => {
 document.getElementById("submit").addEventListener("click", function() {
     val1 = document.querySelector("#contact_input1").value;
     val2 = document.querySelector("#contact_input2").value;
-    val3 = document.querySelector("#contact_input3").value;
+    val3 = document.querySelector("#message").value;
 
     if (val1 != "" && val2 != "" && val3 != "") {
         swal({
