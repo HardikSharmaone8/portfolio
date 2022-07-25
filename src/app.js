@@ -35,6 +35,7 @@ app.post("/portfolio", async(req, res) => {
         });
 
         await visitordata.save();
+
         setTimeout(() => {
             res.render("portfolio");
         }, 4000);

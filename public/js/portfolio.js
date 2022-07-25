@@ -12,6 +12,86 @@ window.addEventListener("scroll", () => {
     }
 });
 
+// For Preloader
+
+function mypreloader() {
+    document.getElementById("preloader").style.display = "none";
+}
+
+setTimeout(function() {
+    document.getElementById("pre_container").style.transform = "rotate(600deg)";
+}, 1000);
+
+function show() {
+    setTimeout(function() {
+        setTimeout(function() {
+            document.getElementById("sub_pre_container1").style.marginTop = "0px";
+        }, 500);
+        setTimeout(function() {
+            document.getElementById("sub_pre_container1").style.marginTop = "10px";
+            document.getElementById("sub_pre_container1").style.marginLeft = "-5px";
+        }, 1000);
+
+        setTimeout(function() {
+            document.getElementById("yellow").style.marginLeft = "0px";
+            document.getElementById("red").style.marginLeft = "0px";
+        }, 500);
+
+        setTimeout(function() {
+            document.getElementById("yellow").style.marginTop = "-5px";
+            document.getElementById("yellow").style.marginLeft = "-5px";
+            document.getElementById("red").style.marginLeft = "18px";
+            document.getElementById("red").style.marginTop = "-20px";
+        }, 1000);
+
+        // document.getElementById("yellow").style.transform = "rotate(120deg)"
+    }, 1000);
+}
+show();
+
+setTimeout(function() {
+    document.getElementById("green").style.marginTop = "-10px";
+    document.getElementById("green").style.height = "30px";
+    document.getElementById("yellow").style.width = "30px";
+    document.getElementById("red").style.height = "30px";
+    document.getElementById("blue").style.width = "30px";
+    //    document.getElementById("sub_pre_container1").style.marginTop = "-5px"
+}, 2000);
+
+setTimeout(function() {
+    document.getElementById("sub_pre_container1").style.marginTop = "15px";
+    document.getElementById("sub_pre_container1").style.marginLeft = "0px";
+    document.getElementById("green").style.marginTop = "0px";
+    document.getElementById("yellow").style.marginLeft = "15px";
+    document.getElementById("red").style.marginTop = "0px";
+
+    document.getElementById("green").style.height = "5px";
+    document.getElementById("yellow").style.width = "5px";
+    document.getElementById("red").style.height = "5px";
+    document.getElementById("blue").style.width = "5px";
+    //    document.getElementById("sub_pre_container1").style.marginTop = "-5px"
+}, 3000);
+
+setTimeout(function() {
+    document.getElementById("pre_container").style.transform = "rotate(1200deg)";
+    show();
+}, 4000);
+
+setTimeout(function() {
+    document.getElementById("sub_pre_container1").style.marginTop = "10px";
+    document.getElementById("sub_pre_container1").style.marginLeft = "-5px";
+    document.getElementById("green").style.marginTop = "-10px";
+    document.getElementById("yellow").style.marginLeft = "-5px";
+    document.getElementById("red").style.marginTop = "-23px";
+
+    document.getElementById("green").style.height = "30px";
+    document.getElementById("yellow").style.width = "30px";
+    document.getElementById("red").style.height = "30px";
+    document.getElementById("blue").style.width = "30px";
+    //    document.getElementById("sub_pre_container1").style.marginTop = "-5px"
+}, 6000);
+
+// for sweet alert
 document.getElementById("hire").addEventListener("click", () => {
     swal({
         title: "Information",
@@ -36,6 +116,7 @@ document.getElementById("submit").addEventListener("click", function() {
     }
 });
 
+// for animation
 setInterval(function() {
     document.getElementById("pointer").style.visibility = "hidden";
 }, 500);
