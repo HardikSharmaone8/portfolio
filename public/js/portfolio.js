@@ -120,11 +120,28 @@ document.getElementById("submit").addEventListener("click", function() {
     val2 = document.querySelector("#contact_input2").value;
     val3 = document.querySelector("#message").value;
 
-    if (val1 != "" && val2 != "" && val3 != "") {
+    ind = val2.indexOf("@");
+    last = val2.lastIndexOf(".");
+    console.log(last);
+    console.log(val2.length);
+    if (
+        val2.includes("@") == true &&
+        val2.indexOf(".", ind) > -1 &&
+        last != val2.length - 1
+    ) {
+        if (val1 != "" && val2 != "" && val3 != "") {
+            swal({
+                title: "Information",
+                text: "Message Succesfully Sent",
+                icon: "success",
+                customClass: "swal-wide",
+            });
+        }
+    } else {
         swal({
             title: "Information",
-            text: "Message Succesfully Sent",
-            icon: "success",
+            text: "Pleas fill the Correct Email Address",
+            icon: "error",
             customClass: "swal-wide",
         });
     }
