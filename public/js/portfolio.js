@@ -115,6 +115,7 @@ document.getElementById("hire").addEventListener("click", () => {
     });
 });
 
+//contact form validation
 document.getElementById("submit").addEventListener("click", function() {
     val1 = document.querySelector("#contact_input1").value;
     val2 = document.querySelector("#contact_input2").value;
@@ -275,6 +276,20 @@ setInterval(function() {
     }, 7400);
 }, 7400);
 
+// forward and backward button logic
+
+document
+    .querySelector(".fa-angle-right")
+    .addEventListener("click", function() {
+        document.querySelector("#project_display_semicontainer").style.marginLeft =
+            "-960px";
+    });
+
+document.querySelector(".fa-angle-left").addEventListener("click", function() {
+    document.querySelector("#project_display_semicontainer").style.marginLeft =
+        "0px";
+});
+
 // responsive section
 
 function disp() {
@@ -288,7 +303,3 @@ function disp() {
     });
 }
 disp();
-
-// document.querySelector("#sidebar").children[1].addEventListener("click", () => {
-//     document.querySelector("#sidebar").style.right = 500 + "px";
-// });
