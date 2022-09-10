@@ -7,6 +7,11 @@ body {
     overflow: auto;
 }
 
+.normal_width {
+    width: auto;
+    height: auto;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -511,6 +516,10 @@ a {
         width: 100%;
         height: auto;
     }
+    .normal_width {
+        width: auto;
+        height: auto;
+    }
     /* to set sweet alert message width */
     .swal-wide {
         width: 20% !important;
@@ -734,6 +743,10 @@ a {
 @media (min-width: 480px) and (max-width: 700px) {
     body {
         width: 100%;
+        height: auto;
+    }
+    .normal_width {
+        width: auto;
         height: auto;
     }
     #navigation {
@@ -967,6 +980,10 @@ a {
         width: 100%;
         height: auto;
     }
+    .normal_width {
+        width: auto;
+        height: auto;
+    }
     #navigation {
         display: none;
     }
@@ -1198,6 +1215,10 @@ a {
     #navigation {
         display: none;
     }
+    .normal_width {
+        width: auto;
+        height: auto;
+    }
     #sidebar {
         height: 700px;
         width: 100%;
@@ -1244,5 +1265,20 @@ a {
         font-weight: bold;
         margin-top: -10px;
         margin-left: 40%;
+    }
+}
+
+@media (min-width: 1151px) and (max-width: 1290px) {
+    .normal_width {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media (min-width: 1300px) and (max-width: 8000px) {
+    .normal_width {
+        width: 1400px;
+        margin: auto;
+        height: auto;
     }
 }
