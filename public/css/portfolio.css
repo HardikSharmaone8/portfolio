@@ -1,208 +1,207 @@
 body {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    overflow: auto;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  overflow: auto;
 }
 
 .normal_width {
-    width: auto;
-    height: auto;
+  width: auto;
+  height: auto;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 #preloader {
-    height: 100vh;
+  height: 100vh;
 }
 
 #pre_container {
-    margin: auto;
-    margin-top: 240px;
-    height: 100px;
-    width: 100px;
-    padding: 35px;
-    box-sizing: border-box;
-    transform: rotate(0deg);
-    transition: 2s;
+  margin: auto;
+  margin-top: 240px;
+  height: 100px;
+  width: 100px;
+  padding: 35px;
+  box-sizing: border-box;
+  transform: rotate(0deg);
+  transition: 2s;
 }
 
 #sub_pre_container {
-    display: flex;
+  display: flex;
 }
 
 #green {
-    height: 5px;
-    width: 5px;
-    background: rgb(210, 105, 30);
-    border-radius: 50px;
-    transition: 0.9s;
-    position: absolute;
+  height: 5px;
+  width: 5px;
+  background: rgb(210, 105, 30);
+  border-radius: 50px;
+  transition: 0.9s;
+  position: absolute;
 }
 
 #yellow {
-    height: 5px;
-    width: 5px;
-    background: rgb(255, 215, 0);
-    border-radius: 50px;
-    position: absolute;
-    margin-left: 15px;
-    transition: 1s;
+  height: 5px;
+  width: 5px;
+  background: rgb(255, 215, 0);
+  border-radius: 50px;
+  position: absolute;
+  margin-left: 15px;
+  transition: 1s;
 }
 
 #sub_pre_container1 {
-    display: flex;
-    margin-top: 10px;
-    transition: 1s;
+  display: flex;
+  margin-top: 10px;
+  transition: 1s;
 }
 
 #red {
-    height: 5px;
-    width: 5px;
-    background: rgb(255, 20, 147);
-    border-radius: 50px;
-    transition: 1s;
-    position: absolute;
-    margin-left: 15px;
+  height: 5px;
+  width: 5px;
+  background: rgb(255, 20, 147);
+  border-radius: 50px;
+  transition: 1s;
+  position: absolute;
+  margin-left: 15px;
 }
 
 #blue {
-    height: 5px;
-    width: 5px;
-    background: rgb(135, 206, 235);
-    border-radius: 50px;
-    position: absolute;
-    transition: 1s;
+  height: 5px;
+  width: 5px;
+  background: rgb(135, 206, 235);
+  border-radius: 50px;
+  position: absolute;
+  transition: 1s;
 }
 
 #sidebar {
-    display: none;
+  display: none;
 }
 
 #menu {
-    display: none;
+  display: none;
 }
 
 #menuu {
-    display: none;
+  display: none;
 }
 
 #navigation {
-    width: 100%;
-    height: 50px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    padding-left: 50px;
-    box-sizing: border-box;
-    position: fixed;
+  width: 100%;
+  height: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 50px;
+  box-sizing: border-box;
+  position: fixed;
 }
 
 a:hover {
-    color: rgba(3, 252, 215);
+  color: rgba(3, 252, 215);
 }
 
 #lio {
-    color: brown;
-    font-size: 30px;
+  color: brown;
+  font-size: 30px;
 }
 
 #ul {
-    text-decoration: none;
-    list-style-type: none;
-    display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
 }
 
 li {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 #home_pic {
-    background: url("../../hacker2.jpg");
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-    margin-bottom: 0px;
-    background-position: fixed fixed;
-    background-attachment: fixed;
+  background: url("../../hacker2.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  margin-bottom: 0px;
+  background-position: fixed fixed;
+  background-attachment: fixed;
 }
 
 #home_text {
-    width: 50%;
-    height: 200px;
-    color: white;
-    margin: 240px 0px 0px 100px;
+  width: 50%;
+  height: 200px;
+  color: white;
+  margin: 240px 0px 0px 100px;
 }
 
 #home_text_h {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 #home_text_hh {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 p {
-    font-weight: bold;
-    margin: -30px 0px;
+  font-weight: bold;
+  margin: -30px 0px;
 }
 
 h3 {
-    margin-top: -30px;
+  margin-top: -30px;
 }
 
 span {
-    font-weight: bold;
-    font-size: 35px;
+  font-weight: bold;
+  font-size: 35px;
 }
 
 #hire {
-    color: white;
-    height: 35px;
-    width: 18%;
-    background-color: brown;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    box-sizing: border-box;
-    padding-top: 5px;
-    border-radius: 5px;
-    cursor: pointer;
-    box-shadow: 2px 2px 5px white;
+  color: white;
+  height: 35px;
+  width: 18%;
+  background-color: brown;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px white;
 }
 
 #hire:hover {
-    color: brown;
-    background-color: white;
+  color: brown;
+  background-color: white;
 }
 
 #about {
-    width: 83%;
-    margin: 0px 100px 0px 100px;
-    height: 500px;
-    box-sizing: border-box;
-    margin-bottom: 50px;
-    padding-top: 50px;
+  width: 83%;
+  margin: 0px 100px 0px 100px;
+  height: 500px;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+  padding-top: 50px;
 }
 
 #about_head {
-    text-align: center;
+  text-align: center;
 }
 
 #about_container {
-    display: flex;
+  display: flex;
 }
 
 #about_image {
-    height: 270px;
-    width: 30%;
-    margin-right: 10%;
+  height: 270px;
+  width: 30%;
+  margin-right: 10%;
 }
-
 
 /* #hardik {
     height: 270px;
@@ -210,1075 +209,1077 @@ span {
 } */
 
 #about_text {
-    height: 250px;
-    width: 60%;
-    font-weight: bold;
-    font-size: 15px;
+  height: 250px;
+  width: 60%;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 #resume {
-    color: white;
-    height: 35px;
-    width: 25%;
-    background-color: brown;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    box-sizing: border-box;
-    padding-top: 5px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 20px;
+  color: white;
+  height: 35px;
+  width: 25%;
+  background-color: brown;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
 }
 
 #resume:hover {
-    border: 3px solid brown;
-    background-color: white;
-    color: brown;
+  border: 3px solid brown;
+  background-color: white;
+  color: brown;
 }
 
 #project {
-    width: 100%;
-    height: 450px;
-    box-sizing: border-box;
-    margin-bottom: 0px;
-    background-color: black;
-    padding-top: 50px;
+  width: 100%;
+  height: 450px;
+  box-sizing: border-box;
+  margin-bottom: 0px;
+  background-color: black;
+  padding-top: 50px;
 }
 
 #project_container {
-    width: 83%;
-    margin: 0px 100px 0px 100px;
-    height: 400px;
-    box-sizing: border-box;
-    margin-bottom: 50px;
+  width: 83%;
+  margin: 0px 100px 0px 100px;
+  height: 400px;
+  box-sizing: border-box;
+  margin-bottom: 50px;
 }
 
 #project_display {
-    width: 92%;
-    height: 300px;
-    box-sizing: border-box;
-    overflow: hidden;
+  width: 92%;
+  height: 300px;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 #project_display_semicontainer {
-    display: flex;
-    transition: 2s;
+  display: flex;
+  transition: 2s;
 }
 
 .fa-angle-left {
-    color: white;
-    font-size: 60px;
-    margin-top: 100px;
+  color: white;
+  font-size: 60px;
+  margin-top: 100px;
 }
 
 .fa-angle-right {
-    color: white;
-    font-size: 60px;
-    margin: 100px 0px 0px 10px;
+  color: white;
+  font-size: 60px;
+  margin: 100px 0px 0px 10px;
 }
 
 .fa-angle-left:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .fa-angle-right:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .projects {
-    height: 200px;
-    width: 300px;
-    margin-left: 20px;
-    margin-top: 20px;
-    box-sizing: border-box;
-    padding: 10px;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 5px;
+  height: 200px;
+  width: 300px;
+  margin-left: 20px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
 }
 
 .projects:hover {
-    color: black;
-    cursor: pointer;
-    transition: 1s;
-    background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: 1s;
+  background-color: white;
 }
 
 .fa-truck-medical,
 .fa-cloud,
 .fa-newspaper,
 .fa-cart-shopping {
-    font-size: 40px;
-    color: brown;
+  font-size: 40px;
+  color: brown;
 }
 
 #skill {
-    width: 83%;
-    margin: 0px 100px 0px 100px;
-    height: 600px;
-    box-sizing: border-box;
-    margin-bottom: 50px;
-    padding-top: 50px;
+  width: 83%;
+  margin: 0px 100px 0px 100px;
+  height: 600px;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+  padding-top: 50px;
 }
 
 #skill_head {
-    text-align: center;
+  text-align: center;
 }
 
 #skill_container {
-    display: flex;
+  display: flex;
 }
 
 #front {
-    width: 45%;
-    height: 200px;
-    margin-right: 5%;
-    text-align: center;
-    box-sizing: border-box;
+  width: 45%;
+  height: 200px;
+  margin-right: 5%;
+  text-align: center;
+  box-sizing: border-box;
 }
 
 #back {
-    width: 50%;
-    height: 200px;
-    text-align: center;
-    box-sizing: border-box;
+  width: 50%;
+  height: 200px;
+  text-align: center;
+  box-sizing: border-box;
 }
 
 .fa-html5,
 .fa-css3-alt,
 .fa-js {
-    font-size: 100px;
-    margin-right: 30px;
+  font-size: 100px;
+  margin-right: 30px;
 }
 
 img {
-    height: 100px;
-    width: 50%;
+  height: 100px;
+  width: 50%;
 }
 
 h1 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 #database {
-    width: 100%;
-    height: 200px;
-    text-align: center;
-    margin-top: 100px;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  margin-top: 100px;
 }
 
 #contact {
-    width: 100%;
-    height: 550px;
-    box-sizing: border-box;
-    margin-bottom: 50px;
-    background-color: black;
-    padding-top: 50px;
+  width: 100%;
+  height: 550px;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+  background-color: black;
+  padding-top: 50px;
 }
 
 #contact_container {
-    display: flex;
-    width: 83%;
-    margin: 0px 100px 0px 100px;
-    height: 500px;
-    box-sizing: border-box;
+  display: flex;
+  width: 83%;
+  margin: 0px 100px 0px 100px;
+  height: 500px;
+  box-sizing: border-box;
 }
 
 #contact_text {
-    width: 40%;
-    height: 350px;
-    color: white;
-    margin-right: 20%;
+  width: 40%;
+  height: 350px;
+  color: white;
+  margin-right: 20%;
 }
 
 #address_section {
-    display: flex;
+  display: flex;
 }
 
 #address_logo {
-    height: 200px;
-    width: 20%;
+  height: 200px;
+  width: 20%;
 }
 
 #address {
-    height: 200px;
-    width: 80%;
+  height: 200px;
+  width: 80%;
 }
 
 .add {
-    margin-top: 22px;
-    font-size: 18px;
-    font-weight: bold;
+  margin-top: 22px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .add:first-child {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 #contact_form {
-    width: 50%;
-    height: 350px;
-    color: white;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 5px;
+  width: 50%;
+  height: 350px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
 }
 
 .fa-user,
 .fa-location-dot,
 .fa-envelope {
-    font-size: 30px;
-    color: brown;
+  font-size: 30px;
+  color: brown;
 }
 
 input {
-    width: 98%;
-    margin-top: 15px;
-    height: 30px;
-    background-color: black;
-    border-radius: 20px;
-    color: white;
-    font-weight: bold;
-    font-size: 15px;
+  width: 98%;
+  margin-top: 15px;
+  height: 30px;
+  background-color: black;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 #message {
-    height: 75px;
+  height: 75px;
 }
 
 #msg_text {
-    margin-left: 150px;
+  margin-left: 150px;
 }
 
 #submit {
-    color: white;
-    height: 35px;
-    width: 25%;
-    background-color: brown;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    box-sizing: border-box;
-    padding-top: 5px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 20px;
-    margin-left: 180px;
+  color: white;
+  height: 35px;
+  width: 25%;
+  background-color: brown;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 180px;
 }
 
 #footer {
-    width: 100%;
-    height: 50px;
-    background-color: black;
-    text-align: center;
-    color: white;
-    font-size: 20ppx;
-    font-weight: bold;
-    box-sizing: border-box;
-    padding: 2px;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 20ppx;
+  font-weight: bold;
+  box-sizing: border-box;
+  padding: 2px;
 }
 
 .fa-facebook,
 .fa-instagram-square,
 .fa-youtube,
 .fa-twitter-square {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .fa-facebook :hover {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .fa-instagram-square :hover {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 .fa-youtube :hover {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 .fa-twitter-square :hover {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
-
 
 /* responsive at the 480px */
 
 @media (max-width: 480px) {
-    body {
-        width: 100%;
-        height: auto;
-    }
-    .normal_width {
-        width: auto;
-        height: auto;
-    }
-    /* to set sweet alert message width */
-    .swal-wide {
-        width: 20% !important;
-        height: 300px;
-    }
-    #navigation {
-        display: none;
-    }
-    #sidebar {
-        height: 700px;
-        width: 100%;
-        background-color: black;
-        font-size: 25px;
-        font-weight: bold;
-        box-sizing: border-box;
-        border: 2px solid white;
-        padding: 60px;
-        transition: 1s;
-        position: absolute;
-        right: 500px;
-        text-align: center;
-        display: block;
-    }
-    ul {
-        list-style-type: none;
-        text-align: center;
-    }
-    .list {
-        margin-top: 35px;
-    }
-    .list:hover {
-        color: brown;
-    }
-    .hide:hover {
-        color: brown;
-    }
-    #menu {
-        width: 100%;
-        display: block;
-        color: white;
-    }
-    #menu_title {
-        font-size: 40px;
-        margin-top: -10px;
-        margin-right: 30%;
-        color: white;
-    }
-    .bars_text {
-        color: white;
-        font-size: 40px;
-        font-weight: bold;
-        margin-top: -10px;
-    }
-    #home_pic {
-        background: url("../../hacker2.jpg");
-        background-size: cover;
-        height: 700px;
-        width: 100%;
-        background-position: fixed fixed;
-    }
-    #home_text {
-        width: 100%;
-        height: 200px;
-        margin: 250px 5px 0px 5px;
-        box-sizing: border-box;
-        padding: 0px 10px 0px 10px;
-    }
-    #home_text_h {
-        font-size: 42px;
-        margin-top: 40px;
-    }
-    #home_text_hh {
-        font-size: 25px;
-    }
-    #change_text {
-        font-size: 30px;
-    }
-    #x {
-        margin: -10px -80px 0px 0px;
-    }
-    #hire {
-        height: 40px;
-        width: 40%;
-        font-size: 22px;
-    }
-    #about {
-        width: 100%;
-        height: 800px;
-        box-sizing: border-box;
-        margin-left: -1px;
-        margin-top: -50px;
-    }
-    #about_container {
-        display: block;
-    }
-    #about_image {
-        height: 270px;
-        width: 100%;
-        box-sizing: border-box;
-        padding: 0px 10px 0px 10px;
-    }
-    #about_text {
-        width: 100%;
-        box-sizing: border-box;
-        padding: 0px 15px 0px 15px;
-        text-align: center;
-    }
-    #resume {
-        height: 40px;
-        width: 50%;
-        box-sizing: border-box;
-        padding-top: 7px;
-        margin-left: 30%;
-    }
-    #project {
-        height: 1100px;
-        margin-bottom: 0px;
-        box-sizing: border-box;
-    }
-    #project_container {
-        width: 100%;
-        margin-left: 0;
-        height: 120px;
-    }
-    #project_display {
-        width: 100%;
-        height: 700px;
-        box-sizing: border-box;
-        padding: 0px;
-        display: block;
-        padding: 0px 30px 0px 40px;
-        overflow: visible;
-    }
-    #project_display_semicontainer {
-        display: block;
-        transition: 2s;
-    }
-    .fa-angle-left,
-    .fa-angle-right {
-        display: none;
-    }
-    .projects {
-        padding: 20px 0px 0px 0px;
-        width: 100%;
-        margin-left: 0px;
-        font-size: 15px;
-    }
-    #skill {
-        width: 100%;
-        margin: 0px;
-        height: 900px;
-        margin-bottom: 0px;
-    }
-    #skill_head {
-        text-align: center;
-    }
-    #skill_container {
-        display: block;
-    }
-    #front {
-        width: 100%;
-        margin-right: 0px;
-    }
-    #back {
-        width: 100%;
-    }
-    .fa-html5,
-    .fa-css3-alt,
-    .fa-js {
-        margin-right: 10px;
-    }
-    img {
-        height: 100px;
-        width: 50%;
-    }
-    #mongo_image {
-        width: 70%;
-    }
-    #contact {
-        width: 100%;
-        height: 900px;
-        margin-bottom: 10px;
-    }
-    #contact_container {
-        display: block;
-        width: 100%;
-        margin: 0px;
-        height: 350px;
-    }
-    #contact_text {
-        width: 100%;
-        height: 350px;
-        margin-right: 0px;
-        box-sizing: border-box;
-        padding: 0px 10px 0px 10px;
-    }
-    #contact_form {
-        width: 100%;
-        padding: 5px 0px 0px 0px;
-        box-sizing: border-box;
-    }
-    input {
-        width: 90%;
-    }
-    #message {
-        height: 75px;
-    }
-    #msg_text {
-        margin-left: 100px;
-    }
-    #submit {
-        width: 30%;
-        margin-left: 100px;
-    }
-    #footer {
-        font-size: 12px;
-        padding: 5px;
-    }
+  body {
+    width: 100%;
+    height: auto;
+  }
+  .normal_width {
+    width: auto;
+    height: auto;
+  }
+  /* to set sweet alert message width */
+  .swal-wide {
+    width: 20% !important;
+    height: 300px;
+  }
+  #navigation {
+    display: none;
+  }
+  #sidebar {
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    font-size: 25px;
+    font-weight: bold;
+    box-sizing: border-box;
+    border: 2px solid white;
+    padding: 60px;
+    transition: 1s;
+    position: absolute;
+    right: 500px;
+    text-align: center;
+    display: block;
+  }
+  ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  .list {
+    margin-top: 35px;
+  }
+  .list:hover {
+    color: brown;
+  }
+  .hide:hover {
+    color: brown;
+  }
+  #menu {
+    width: 100%;
+    display: block;
+    color: white;
+  }
+  #menu_title {
+    font-size: 40px;
+    margin-top: -10px;
+    margin-right: 30%;
+    color: white;
+  }
+  .bars_text {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -10px;
+  }
+  #home_pic {
+    background: url("../../hacker2.jpg");
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    background-position: fixed fixed;
+  }
+  #home_text {
+    width: 100%;
+    height: 200px;
+    margin: 250px 5px 0px 5px;
+    box-sizing: border-box;
+    padding: 0px 10px 0px 10px;
+  }
+  #home_text_h {
+    font-size: 42px;
+    margin-top: 40px;
+  }
+  #home_text_hh {
+    font-size: 25px;
+  }
+  #change_text {
+    font-size: 30px;
+  }
+  #x {
+    margin: -10px -80px 0px 0px;
+  }
+  #hire {
+    height: 40px;
+    width: 40%;
+    font-size: 22px;
+  }
+  #about {
+    width: 100%;
+    height: 800px;
+    box-sizing: border-box;
+    margin-left: -1px;
+    margin-top: -50px;
+  }
+  #about_container {
+    display: block;
+  }
+  #about_image {
+    height: 270px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px 10px 0px 10px;
+  }
+  #about_text {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px 15px 0px 15px;
+    text-align: center;
+  }
+  #resume {
+    height: 40px;
+    width: 50%;
+    box-sizing: border-box;
+    padding-top: 7px;
+    margin-left: 30%;
+  }
+  #project {
+    height: 1100px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+  }
+  #project_container {
+    width: 100%;
+    margin-left: 0;
+    height: 120px;
+  }
+  #project_display {
+    width: 100%;
+    height: 700px;
+    box-sizing: border-box;
+    padding: 0px;
+    display: block;
+    padding: 0px 30px 0px 40px;
+    overflow: visible;
+  }
+  #project_display_semicontainer {
+    display: block;
+    transition: 2s;
+  }
+  .fa-angle-left,
+  .fa-angle-right {
+    display: none;
+  }
+  .projects {
+    padding: 20px 0px 0px 0px;
+    width: 100%;
+    margin-left: 0px;
+    font-size: 15px;
+  }
+  #skill {
+    width: 100%;
+    margin: 0px;
+    height: 900px;
+    margin-bottom: 0px;
+  }
+  #skill_head {
+    text-align: center;
+  }
+  #skill_container {
+    display: block;
+  }
+  #front {
+    width: 100%;
+    margin-right: 0px;
+  }
+  #back {
+    width: 100%;
+    margin-top: 80px;
+  }
+  .fa-html5,
+  .fa-css3-alt,
+  .fa-js {
+    margin-right: 10px;
+  }
+  img {
+    height: 100px;
+    width: 50%;
+  }
+  #mongo_image {
+    width: 70%;
+  }
+  #contact {
+    width: 100%;
+    height: 900px;
+    margin-bottom: 10px;
+  }
+  #contact_container {
+    display: block;
+    width: 100%;
+    margin: 0px;
+    height: 350px;
+  }
+  #contact_text {
+    width: 100%;
+    height: 350px;
+    margin-right: 0px;
+    box-sizing: border-box;
+    padding: 0px 10px 0px 10px;
+  }
+  #contact_form {
+    width: 100%;
+    padding: 5px 0px 0px 0px;
+    box-sizing: border-box;
+  }
+  input {
+    width: 90%;
+  }
+  #message {
+    height: 75px;
+  }
+  #msg_text {
+    margin-left: 100px;
+  }
+  #submit {
+    width: 30%;
+    margin-left: 100px;
+  }
+  #footer {
+    font-size: 12px;
+    padding: 5px;
+  }
 }
 
 @media (min-width: 480px) and (max-width: 700px) {
-    body {
-        width: 100%;
-        height: auto;
-    }
-    .normal_width {
-        width: auto;
-        height: auto;
-    }
-    #navigation {
-        display: none;
-    }
-    #sidebar {
-        height: 700px;
-        width: 100%;
-        background-color: black;
-        font-size: 25px;
-        font-weight: bold;
-        box-sizing: border-box;
-        border: 2px solid white;
-        padding: 60px;
-        transition: 1s;
-        position: absolute;
-        right: 1000px;
-        text-align: center;
-        display: block;
-    }
-    ul {
-        list-style-type: none;
-        text-align: center;
-    }
-    .list {
-        margin-top: 35px;
-        font-size: 40px;
-    }
-    .list:hover {
-        color: brown;
-    }
-    .hide:hover {
-        color: brown;
-    }
-    #menu {
-        width: 100%;
-        display: block;
-        color: white;
-    }
-    #menu_title {
-        font-size: 40px;
-        margin-top: -10px;
-        margin-right: 60%;
-        color: white;
-    }
-    .bars_text {
-        color: white;
-        font-size: 40px;
-        font-weight: bold;
-        margin-top: -10px;
-    }
-    #home_pic {
-        width: 100%;
-        height: 700px;
-        margin-bottom: 0px;
-    }
-    #home_text {
-        width: 100%;
-        height: 200px;
-        margin: 200px 5px 0px 50px;
-        box-sizing: border-box;
-        padding: 0px 10px 0px 10px;
-    }
-    #home_text_h {
-        font-size: 45px;
-        margin-top: 40px;
-    }
-    #home_text_hh {
-        font-size: 25px;
-    }
-    #change_text {
-        font-size: 30px;
-    }
-    #x {
-        margin: -10px -80px 0px 0px;
-    }
-    #hire {
-        height: 40px;
-        width: 20%;
-        font-size: 22px;
-    }
-    #about {
-        width: 100%;
-        margin: 0;
-        height: 950px;
-        margin-bottom: 0px;
-    }
-    #about_container {
-        display: block;
-        align-items: center;
-        text-align: center;
-    }
-    #about_head h1 {
-        font-size: 40px;
-    }
-    #about_head h3 {
-        font-size: 21px;
-    }
-    .about_heading {
-        font-weight: bold;
-        font-size: 25px;
-    }
-    #about_image {
-        height: 270px;
-        width: 50%;
-        margin: 0px;
-    }
-    #about_text {
-        height: 350px;
-        width: 100%;
-        box-sizing: border-box;
-        font-size: 18px;
-        padding: 25px;
-    }
-    #resume {
-        height: 35px;
-        width: 28%;
-        margin-left: 180px;
-    }
-    #project {
-        width: 100%;
-        height: 1100px;
-        margin-bottom: 0px;
-        align-items: center;
-        text-align: center;
-    }
-    #project_container {
-        width: 100%;
-        margin: 0px;
-        height: 100px;
-        box-sizing: border-box;
-        margin-bottom: 0px;
-    }
-    #project_display {
-        width: 100%;
-        height: 700px;
-        box-sizing: border-box;
-        display: block;
-        padding: 0px 0px 0px 70px;
-        text-align: center;
-        align-items: center;
-        overflow: visible;
-    }
-    #project_display_semicontainer {
-        display: block;
-        transition: 2s;
-    }
-    .fa-angle-left,
-    .fa-angle-right {
-        display: none;
-    }
-    .projects {
-        height: 200px;
-        width: 85%;
-        margin-left: 0px;
-        margin-top: 20px;
-        padding: 10px 30px 0px 30px;
-        font-size: 16px;
-    }
-    #skill {
-        width: 100%;
-        margin: 0px;
-        height: 900px;
-        margin-bottom: 0px;
-    }
-    #skill_head {
-        text-align: center;
-    }
-    #skill_container {
-        display: block;
-    }
-    #front {
-        width: 100%;
-    }
-    #back {
-        width: 100%;
-    }
-    img {
-        height: 100px;
-        width: 70%;
-    }
-    #database {
-        width: 100%;
-    }
-    #contact {
-        width: 100%;
-        height: 900px;
-        margin-bottom: 10px;
-        box-sizing: border-box;
-        padding: 50px;
-    }
-    #contact_container {
-        display: block;
-        width: 100%;
-        margin: 0px;
-        height: 350px;
-    }
-    #contact_text {
-        width: 100%;
-        height: 350px;
-        margin-right: 0px;
-        box-sizing: border-box;
-        padding: 0px 10px 0px 10px;
-    }
-    #contact_form {
-        width: 100%;
-        padding: 5px 0px 0px 0px;
-        box-sizing: border-box;
-    }
-    input {
-        width: 90%;
-    }
-    #message {
-        height: 75px;
-    }
-    #msg_text {
-        margin-left: 100px;
-    }
-    #submit {
-        width: 30%;
-        margin-left: 150px;
-    }
-    #footer {
-        font-size: 14px;
-        padding: 5px;
-    }
+  body {
+    width: 100%;
+    height: auto;
+  }
+  .normal_width {
+    width: auto;
+    height: auto;
+  }
+  #navigation {
+    display: none;
+  }
+  #sidebar {
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    font-size: 25px;
+    font-weight: bold;
+    box-sizing: border-box;
+    border: 2px solid white;
+    padding: 60px;
+    transition: 1s;
+    position: absolute;
+    right: 1000px;
+    text-align: center;
+    display: block;
+  }
+  ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  .list {
+    margin-top: 35px;
+    font-size: 40px;
+  }
+  .list:hover {
+    color: brown;
+  }
+  .hide:hover {
+    color: brown;
+  }
+  #menu {
+    width: 100%;
+    display: block;
+    color: white;
+  }
+  #menu_title {
+    font-size: 40px;
+    margin-top: -10px;
+    margin-right: 60%;
+    color: white;
+  }
+  .bars_text {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -10px;
+  }
+  #home_pic {
+    width: 100%;
+    height: 700px;
+    margin-bottom: 0px;
+  }
+  #home_text {
+    width: 100%;
+    height: 200px;
+    margin: 200px 5px 0px 50px;
+    box-sizing: border-box;
+    padding: 0px 10px 0px 10px;
+  }
+  #home_text_h {
+    font-size: 45px;
+    margin-top: 40px;
+  }
+  #home_text_hh {
+    font-size: 25px;
+  }
+  #change_text {
+    font-size: 30px;
+  }
+  #x {
+    margin: -10px -80px 0px 0px;
+  }
+  #hire {
+    height: 40px;
+    width: 20%;
+    font-size: 22px;
+  }
+  #about {
+    width: 100%;
+    margin: 0;
+    height: 950px;
+    margin-bottom: 0px;
+  }
+  #about_container {
+    display: block;
+    align-items: center;
+    text-align: center;
+  }
+  #about_head h1 {
+    font-size: 40px;
+  }
+  #about_head h3 {
+    font-size: 21px;
+  }
+  .about_heading {
+    font-weight: bold;
+    font-size: 25px;
+  }
+  #about_image {
+    height: 270px;
+    width: 50%;
+    margin: 0px;
+  }
+  #about_text {
+    height: 350px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 18px;
+    padding: 25px;
+  }
+  #resume {
+    height: 35px;
+    width: 28%;
+    margin-left: 180px;
+  }
+  #project {
+    width: 100%;
+    height: 1100px;
+    margin-bottom: 0px;
+    align-items: center;
+    text-align: center;
+  }
+  #project_container {
+    width: 100%;
+    margin: 0px;
+    height: 100px;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+  }
+  #project_display {
+    width: 100%;
+    height: 700px;
+    box-sizing: border-box;
+    display: block;
+    padding: 0px 0px 0px 70px;
+    text-align: center;
+    align-items: center;
+    overflow: visible;
+  }
+  #project_display_semicontainer {
+    display: block;
+    transition: 2s;
+  }
+  .fa-angle-left,
+  .fa-angle-right {
+    display: none;
+  }
+  .projects {
+    height: 200px;
+    width: 85%;
+    margin-left: 0px;
+    margin-top: 20px;
+    padding: 10px 30px 0px 30px;
+    font-size: 16px;
+  }
+  #skill {
+    width: 100%;
+    margin: 0px;
+    height: 900px;
+    margin-bottom: 0px;
+  }
+  #skill_head {
+    text-align: center;
+  }
+  #skill_container {
+    display: block;
+  }
+  #front {
+    width: 100%;
+  }
+  #back {
+    width: 100%;
+    margin-top: 80px;
+  }
+  img {
+    height: 100px;
+    width: 70%;
+  }
+  #database {
+    width: 100%;
+  }
+  #contact {
+    width: 100%;
+    height: 900px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 50px;
+  }
+  #contact_container {
+    display: block;
+    width: 100%;
+    margin: 0px;
+    height: 350px;
+  }
+  #contact_text {
+    width: 100%;
+    height: 350px;
+    margin-right: 0px;
+    box-sizing: border-box;
+    padding: 0px 10px 0px 10px;
+  }
+  #contact_form {
+    width: 100%;
+    padding: 5px 0px 0px 0px;
+    box-sizing: border-box;
+  }
+  input {
+    width: 90%;
+  }
+  #message {
+    height: 75px;
+  }
+  #msg_text {
+    margin-left: 100px;
+  }
+  #submit {
+    width: 30%;
+    margin-left: 150px;
+  }
+  #footer {
+    font-size: 14px;
+    padding: 5px;
+  }
 }
 
 @media (min-width: 710px) and (max-width: 1100px) {
-    body {
-        width: 100%;
-        height: auto;
-    }
-    .normal_width {
-        width: auto;
-        height: auto;
-    }
-    #navigation {
-        display: none;
-    }
-    #sidebar {
-        height: 700px;
-        width: 100%;
-        background-color: black;
-        font-size: 25px;
-        font-weight: bold;
-        box-sizing: border-box;
-        border: 2px solid white;
-        padding: 60px;
-        transition: 1s;
-        position: absolute;
-        right: 1100px;
-        text-align: center;
-        display: block;
-    }
-    ul {
-        list-style-type: none;
-        text-align: center;
-    }
-    .list {
-        margin-top: 35px;
-        font-size: 40px;
-    }
-    .list:hover {
-        color: brown;
-    }
-    .hide:hover {
-        color: brown;
-    }
-    #menu {
-        width: 100%;
-        display: block;
-        color: white;
-    }
-    #menu_title {
-        font-size: 40px;
-        margin-top: -10px;
-        margin-right: 30%;
-        color: white;
-    }
-    #menu_ul .bars_text {
-        color: white;
-        font-size: 40px;
-        font-weight: bold;
-        margin-top: -10px;
-        margin-left: 40%;
-    }
-    #home_pic {
-        background: url("../../hacker2.jpg");
-        background-size: cover;
-        height: 700px;
-        width: 100%;
-        background-position: fixed fixed;
-    }
-    #home_text {
-        width: 100%;
-        height: 200px;
-        margin: 200px 5px 0px 50px;
-        box-sizing: border-box;
-        padding: 0px 10px 0px 10px;
-    }
-    #home_text_h {
-        font-size: 50px;
-        margin-top: 40px;
-    }
-    #home_text_hh {
-        font-size: 25px;
-    }
-    #change_text {
-        font-size: 30px;
-    }
-    #x {
-        margin: -10px -80px 0px 0px;
-    }
-    #hire {
-        height: 40px;
-        width: 15%;
-        font-size: 22px;
-    }
-    #about {
-        width: 100%;
-        height: 750px;
-        box-sizing: border-box;
-        margin-left: -1px;
-        margin-top: -50px;
-        padding: 50px;
-    }
-    #about_container {
-        display: block;
-        text-align: center;
-    }
-    #about_image {
-        height: 270px;
-        width: 40%;
-        box-sizing: border-box;
-        padding: 0px;
-        margin-left: 50px;
-    }
-    #about_text {
-        width: 100%;
-        box-sizing: border-box;
-        padding: 0px 15px 0px 15px;
-        text-align: center;
-        font-size: 15px;
-    }
-    #resume {
-        height: 40px;
-        width: 25%;
-        box-sizing: border-box;
-        padding-top: 7px;
-        margin-left: 40%;
-    }
-    #project {
-        height: 700px;
-        margin-bottom: 0px;
-        box-sizing: border-box;
-        padding: 50px;
-    }
-    #project_container {
-        width: 100%;
-        margin-left: 0;
-        height: 120px;
-    }
-    #project_display {
-        overflow: visible;
-    }
-    #project_display_semicontainer {
-        width: 100%;
-        height: 700px;
-        box-sizing: border-box;
-        display: grid;
-        padding: 0px 30px 0px 40px;
-        grid-template-rows: 30% 30%;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 10px;
-    }
-    .fa-angle-left,
-    .fa-angle-right {
-        display: none;
-    }
-    .projects {
-        padding: 20px 0px 0px 0px;
-        width: 100%;
-        margin-left: 0px;
-        font-size: 15px;
-    }
-    #skill {
-        width: 100%;
-        margin: 0px;
-        height: 900px;
-        margin-bottom: 0px;
-        padding: 50px;
-        box-sizing: border-box;
-    }
-    #skill_head {
-        text-align: center;
-    }
-    #skill_container {
-        display: block;
-    }
-    #front {
-        width: 100%;
-        margin-right: 0px;
-    }
-    #back {
-        width: 100%;
-    }
-    .fa-html5,
-    .fa-css3-alt,
-    .fa-js {
-        margin-right: 10px;
-    }
-    img {
-        height: 100px;
-        width: 50%;
-    }
-    #mongo_image {
-        width: 70%;
-    }
-    #contact {
-        width: 100%;
-        height: 900px;
-        margin-bottom: 10px;
-    }
-    #contact_container {
-        display: block;
-        width: 100%;
-        margin: 0px;
-        height: 350px;
-    }
-    #contact_text {
-        width: 100%;
-        height: 350px;
-        margin-right: 0px;
-        box-sizing: border-box;
-        padding: 0px 50px 0px 100px;
-    }
-    #contact_form {
-        width: 100%;
-        padding: 0% 5% 0% 12%;
-        box-sizing: border-box;
-    }
-    #contact_form h2 {
-        margin-left: 30%;
-    }
-    input {
-        width: 90%;
-    }
-    #message {
-        height: 75px;
-    }
-    #msg_text {
-        margin-left: 100px;
-    }
-    #submit {
-        width: 25%;
-        margin-left: 30%;
-    }
-    #footer {
-        font-size: 14px;
-        padding: 5px;
-    }
+  body {
+    width: 100%;
+    height: auto;
+  }
+  .normal_width {
+    width: auto;
+    height: auto;
+  }
+  #navigation {
+    display: none;
+  }
+  #sidebar {
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    font-size: 25px;
+    font-weight: bold;
+    box-sizing: border-box;
+    border: 2px solid white;
+    padding: 60px;
+    transition: 1s;
+    position: absolute;
+    right: 1100px;
+    text-align: center;
+    display: block;
+  }
+  ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  .list {
+    margin-top: 35px;
+    font-size: 40px;
+  }
+  .list:hover {
+    color: brown;
+  }
+  .hide:hover {
+    color: brown;
+  }
+  #menu {
+    width: 100%;
+    display: block;
+    color: white;
+  }
+  #menu_title {
+    font-size: 40px;
+    margin-top: -10px;
+    margin-right: 30%;
+    color: white;
+  }
+  #menu_ul .bars_text {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-left: 40%;
+  }
+  #home_pic {
+    background: url("../../hacker2.jpg");
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    background-position: fixed fixed;
+  }
+  #home_text {
+    width: 100%;
+    height: 200px;
+    margin: 200px 5px 0px 50px;
+    box-sizing: border-box;
+    padding: 0px 10px 0px 10px;
+  }
+  #home_text_h {
+    font-size: 50px;
+    margin-top: 40px;
+  }
+  #home_text_hh {
+    font-size: 25px;
+  }
+  #change_text {
+    font-size: 30px;
+  }
+  #x {
+    margin: -10px -80px 0px 0px;
+  }
+  #hire {
+    height: 40px;
+    width: 15%;
+    font-size: 22px;
+  }
+  #about {
+    width: 100%;
+    height: 750px;
+    box-sizing: border-box;
+    margin-left: -1px;
+    margin-top: -50px;
+    padding: 50px;
+  }
+  #about_container {
+    display: block;
+    text-align: center;
+  }
+  #about_image {
+    height: 270px;
+    width: 40%;
+    box-sizing: border-box;
+    padding: 0px;
+    margin-left: 50px;
+  }
+  #about_text {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0px 15px 0px 15px;
+    text-align: center;
+    font-size: 15px;
+  }
+  #resume {
+    height: 40px;
+    width: 25%;
+    box-sizing: border-box;
+    padding-top: 7px;
+    margin-left: 40%;
+  }
+  #project {
+    height: 700px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    padding: 50px;
+  }
+  #project_container {
+    width: 100%;
+    margin-left: 0;
+    height: 120px;
+  }
+  #project_display {
+    overflow: visible;
+  }
+  #project_display_semicontainer {
+    width: 100%;
+    height: 700px;
+    box-sizing: border-box;
+    display: grid;
+    padding: 0px 30px 0px 40px;
+    grid-template-rows: 30% 30%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  .fa-angle-left,
+  .fa-angle-right {
+    display: none;
+  }
+  .projects {
+    padding: 20px 0px 0px 0px;
+    width: 100%;
+    margin-left: 0px;
+    font-size: 15px;
+  }
+  #skill {
+    width: 100%;
+    margin: 0px;
+    height: 900px;
+    margin-bottom: 0px;
+    padding: 50px;
+    box-sizing: border-box;
+  }
+  #skill_head {
+    text-align: center;
+  }
+  #skill_container {
+    display: block;
+  }
+  #front {
+    width: 100%;
+    margin-right: 0px;
+  }
+  #back {
+    width: 100%;
+    margin-top: 80px;
+  }
+  .fa-html5,
+  .fa-css3-alt,
+  .fa-js {
+    margin-right: 10px;
+  }
+  img {
+    height: 100px;
+    width: 50%;
+  }
+  #mongo_image {
+    width: 70%;
+  }
+  #contact {
+    width: 100%;
+    height: 900px;
+    margin-bottom: 10px;
+  }
+  #contact_container {
+    display: block;
+    width: 100%;
+    margin: 0px;
+    height: 350px;
+  }
+  #contact_text {
+    width: 100%;
+    height: 350px;
+    margin-right: 0px;
+    box-sizing: border-box;
+    padding: 0px 50px 0px 100px;
+  }
+  #contact_form {
+    width: 100%;
+    padding: 0% 5% 0% 12%;
+    box-sizing: border-box;
+  }
+  #contact_form h2 {
+    margin-left: 30%;
+  }
+  input {
+    width: 90%;
+  }
+  #message {
+    height: 75px;
+  }
+  #msg_text {
+    margin-left: 100px;
+  }
+  #submit {
+    width: 25%;
+    margin-left: 30%;
+  }
+  #footer {
+    font-size: 14px;
+    padding: 5px;
+  }
 }
 
 @media (min-width: 1101px) and (max-width: 1150px) {
-    #navigation {
-        display: none;
-    }
-    .normal_width {
-        width: auto;
-        height: auto;
-    }
-    #sidebar {
-        height: 700px;
-        width: 100%;
-        background-color: black;
-        font-size: 25px;
-        font-weight: bold;
-        box-sizing: border-box;
-        border: 2px solid white;
-        padding: 60px;
-        transition: 1s;
-        position: absolute;
-        right: 1150px;
-        text-align: center;
-        display: block;
-    }
-    ul {
-        list-style-type: none;
-        text-align: center;
-    }
-    .list {
-        margin-top: 35px;
-        font-size: 40px;
-    }
-    .list:hover {
-        color: brown;
-    }
-    .hide:hover {
-        color: brown;
-    }
-    #menu {
-        width: 100%;
-        display: block;
-        color: white;
-    }
-    #menu_title {
-        font-size: 40px;
-        margin-top: -10px;
-        margin-right: 30%;
-        color: white;
-    }
-    #menu_ul .bars_text {
-        color: white;
-        font-size: 40px;
-        font-weight: bold;
-        margin-top: -10px;
-        margin-left: 40%;
-    }
+  #navigation {
+    display: none;
+  }
+  .normal_width {
+    width: auto;
+    height: auto;
+  }
+  #sidebar {
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    font-size: 25px;
+    font-weight: bold;
+    box-sizing: border-box;
+    border: 2px solid white;
+    padding: 60px;
+    transition: 1s;
+    position: absolute;
+    right: 1150px;
+    text-align: center;
+    display: block;
+  }
+  ul {
+    list-style-type: none;
+    text-align: center;
+  }
+  .list {
+    margin-top: 35px;
+    font-size: 40px;
+  }
+  .list:hover {
+    color: brown;
+  }
+  .hide:hover {
+    color: brown;
+  }
+  #menu {
+    width: 100%;
+    display: block;
+    color: white;
+  }
+  #menu_title {
+    font-size: 40px;
+    margin-top: -10px;
+    margin-right: 30%;
+    color: white;
+  }
+  #menu_ul .bars_text {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-left: 40%;
+  }
 }
 
 @media (min-width: 1151px) and (max-width: 1290px) {
-    .normal_width {
-        width: auto;
-        height: auto;
-    }
+  .normal_width {
+    width: auto;
+    height: auto;
+  }
 }
 
 @media (min-width: 1300px) and (max-width: 8000px) {
-    .normal_width {
-        width: 1400px;
-        margin: auto;
-        height: auto;
-    }
+  .normal_width {
+    width: 1400px;
+    margin: auto;
+    height: auto;
+  }
 }
