@@ -103,7 +103,7 @@ setTimeout(function () {
 
 // for sweet alert
 document.getElementById("hire").addEventListener("click", () => {
-  swal({
+  swal({  
     title: "Information",
     text: "Please check my resume and portfolio...",
     icon: "info",
